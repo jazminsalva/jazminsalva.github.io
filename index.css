@@ -1,13 +1,13 @@
 /* Custom properties */
 body{
-  background-color: #b4dd89;
+  background-color: #f8e2d6;
 }
 
 :root{
-  --first-color: #855151;
+  --first-color: #ecf3b6;
   --first-alpha-color:rgba(185, 231, 112, 0.75);
 
-  --second-color: #F2EE9D;
+  --second-color: #40b960;
   --second-alpha-color: rgb(40, 40, 41, 0.75);
   
   --third-color: rgb(10, 25, 47);
@@ -19,13 +19,11 @@ body{
   --gray-color: #F2EE9D;
   --gray-light-color: #eaeef8;
   --gray-dark-color: #8892b0ff;
-  --link-color: rgba(248, 58, 0, 0.637);
-  --title-color: s#065706;
+  --link-color: #41162e;
+  --title-color: hsl(341, 83%, 69%);
   --white-alpha-color: rgba(231, 20, 20, 0.5);
-  --black-alpha-color: rgba(0, 0, 0, 0.5);
+  --black-alpha-color: rgb(255, 255, 255);
   
-  --aquamarine: #64ffdaff;
-  --erin: #22fc51ff;
 
   --font: "Raleway", sans-serif;
 
@@ -255,7 +253,7 @@ p{
 /* Hero Image */
 
 .hero-image{
-  background-image: url('../assets/github-4.jpg');
+  background-image: url("header.png");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -263,13 +261,13 @@ p{
 }
 
 .hero-image-opacity{
-  width: 100%;
-  min-height: 100vh;
+  background-size: cover;
   display: flex;
   justify-content: center;
   align-items: center;
   text-align: center;
-  background-color: rgb(122, 157, 84);
+  background-color: #D988B9;
+  background-image: url(header.png);
 }
 
 .hero-image-title{
@@ -383,7 +381,7 @@ p{
   justify-content: space-between;
   align-items: center;
   font-weight: bold;
-  border: 1px solid var(--first-color);
+  border: 2px solid var(--first-color);
   padding: 0.5rem;
 }
 
@@ -401,7 +399,7 @@ p{
 }
 
 .bg-gray-light{
-  background-color: #5c7a3c;
+  background-color: var(--link-color);
   color: white;
 }
 
